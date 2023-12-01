@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+}
+.body{
+    box-sizing: border-box;
+}
+.main-bg3{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #E1EBEE;
+    
+}
+.small-card{
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    width: 50%;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 32px;
+    border: 2px grey solid;
+}
+
+.text-bg{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    
+}
+.image{
+    height: 200px;
+    width: 240px;
+    
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.para{
+    font-family: open sans;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.headi{
+    font-family: open sans;
+    font-size: 20px;
+}
+.btn{
+    width: 90px;
+    height: 28px;
+    margin-right: 30px;
+}
+.btn-bg{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.img{
+    margin-right: 0px;
+}
+.heading{
+    font-size: 24px;
+    margin-top: 30px;
+    font-family:raleway; 
+}
+.confirm-para{
+    color: green;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.mar{
+    margin-top: 90px;
+    margin-bottom:20px;
+    
+}
+
+@media (min-width: 768px){
+    .wid{
+        width: 80%;
+    }
+}
+@media (max-width: 768px){
+    .main-bg{
+
+        margin-left: 25px;
+    }
+    .main-bg2{
+        padding: 0px 0px 10px;
+    }
+    .small-card{
+        height: 380px;
+        width: 80vw;
+        flex-direction: column;
+    }
+    .image{
+        height: 220px;
+        width: 80vw;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+    }
+    .text-bg{
+        padding: 20px;
+        padding-left: 20px;
+        
+    }
+    .btn-bg{
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .head{
+        font-size: 20px;
+    }
+    .para{
+        font-size: 14px;
+        width: 70vw;
+    }
+    .btn{
+        margin-right: 10px;
+    }
+    .confirm-para{
+        margin-top: 0px;
+    }
+}
+.vote{
+    background-color: #6CB4EE	 !important;
+}
+
+.view{
+    border: 2px solid 	#6CB4EE !important;
+
+}
+

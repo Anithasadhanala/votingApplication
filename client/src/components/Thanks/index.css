@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+}
+.body{
+    box-sizing: border-box;
+}
+.thanks{
+    height: 60vh;
+    width: 30vw;
+}
+.thanks-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.thanks-para{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: open sans;
+}
+.thanks-para2{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: open sans;
+    color: green
+}
+@media (max-width: 768px) {
+    .thanks-para{
+        font-weight: 600;
+        font-size: 20px;
+        font-family: open sans;
+        text-align: center;
+    }
+    .thanks-para2{
+        font-weight: 500;
+        font-size: 14px;
+        font-family: open sans;
+        color: green;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .thanks{
+        width: 90vw;
+        height: 40vh;
+    }
+
+    
+}

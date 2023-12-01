@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+.terms-bg{
+    background-color: #E1EBEE;
+    height: 100vh;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.hia{
+    padding-right: 25px;
+}
+.mid{
+    text-align: left;
+    font-size: 28px;
+}
+.right-to-vote{
+    font-size: 22px;
+    text-align: left;
+}
+.right-para{
+    text-align: left;
+    width: 90%;
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .right-para{
+        width: 50%;
+    }
+    .error2{
+        margin-right: 100px;
+    }
+    
+}
